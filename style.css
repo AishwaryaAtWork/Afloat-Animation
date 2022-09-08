@@ -7,3 +7,41 @@
     text-transform: capitalize;
     box-sizing: border-box;
 }
+main{
+    font-family: 'Heebo', sans-serif;
+}
+.landing{
+    min-height: 100vh;
+    background: url(src/mainPic.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0rem 5rem;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+}
+.nav-links{
+    display: flex;
+    list-style-type: none;
+}
+.nav-links li{
+    padding-left: 4rem;
+    font-size: 1rem;
+}
+#logo{
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+    font-size: 1.8rem;
+}
+.big-text{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+    font-family: 'Lobster', cursive;
+    font-size: 4.2rem;
+    color: rgba(61,61,61);
+}
